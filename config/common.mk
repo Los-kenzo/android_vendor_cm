@@ -96,6 +96,10 @@ endif
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
+# Theme Interfacer
+PRODUCT_PACKAGES += \
+    ThemeInterfacer
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
