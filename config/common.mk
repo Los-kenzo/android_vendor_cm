@@ -93,6 +93,10 @@ ifneq ($(TARGET_DISABLE_CMSDK), true)
 include vendor/cm/config/cmsdk_common.mk
 endif
 
+# Busybox
+PRODUCT_PACKAGES += \
+    busybox
+
 # Bootanimation
 PRODUCT_PACKAGES += \
     bootanimation.zip
